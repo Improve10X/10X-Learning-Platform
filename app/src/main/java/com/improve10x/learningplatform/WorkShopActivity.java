@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.improve10x.learningplatform.databinding.ActivityWorkShopBinding;
+
 public class WorkShopActivity extends AppCompatActivity {
+
+    private ActivityWorkShopBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_work_shop);
+        binding = ActivityWorkShopBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 }
