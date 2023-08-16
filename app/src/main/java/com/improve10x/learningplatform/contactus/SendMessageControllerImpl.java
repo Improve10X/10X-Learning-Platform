@@ -6,7 +6,7 @@ public class SendMessageControllerImpl implements SendMessageController {
         String result = "";
         if (message == null) {
         } else {
-            result = message;
+            result = message.trim();
         }
         return result;
     }
