@@ -5,6 +5,7 @@ import static org.junit.Assert.assertThrows;
 import junit.framework.TestCase;
 
 public class SendMessageControllerImplTest extends TestCase {
+
     private SendMessageControllerImpl sendMessageController = new SendMessageControllerImpl();
 
     public void testSendMessage() {
