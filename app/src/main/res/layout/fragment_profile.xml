@@ -250,7 +250,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/shopping_policy"
+        android:text="@string/shipping_policy"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="@+id/textView8"

@@ -8,7 +8,7 @@
     <string name="terms_of_service_txt">Terms Of Service</string>
     <string name="privacy_policy_txt">Privacy Policy</string>
     <string name="returns_refunds_txt">Returns &amp; Refunds</string>
-    <string name="shopping_policy">Shopping Policy</string>
+    <string name="shipping_policy">Shipping Policy</string>
     <string name="user_id_txt">User Id</string>
     <string name="version_txt">Version</string>
 </resources>
