@@ -16,7 +16,7 @@ public class ProfileFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 
-    private void handleProfileClick() {}
+    private void handleProfile() {}
 
     private void handlePersonalInformation() {}
 
