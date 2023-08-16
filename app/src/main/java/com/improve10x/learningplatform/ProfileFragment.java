@@ -15,4 +15,14 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_profile, container, false);
     }
+
+    private void handleProfileClick() {}
+
+    private void handlePersonalInformation() {}
+
+    private void handleSettings() {}
+
+    private void handleContactUs() {}
+
+    private void handleLogout() {}
 }
