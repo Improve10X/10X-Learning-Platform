@@ -21,19 +21,19 @@ public class SettingsFragment extends Fragment {
         actionBar.setTitle("Settings");
         actionBar.setDisplayHomeAsUpEnabled(true);
         handleBackBtn();
-        handleEnableAndDisableNotificationBtn();
-        handleSendTestNotification();
-        handleEnableAndDisableSound();
+        handleNotificationBtn();
+        handleSendTestNotificationBtn();
+        handleSoundBtn();
         return inflater.inflate(R.layout.fragment_settings, container, false);
     }
 
-    private void handleEnableAndDisableSound() {
+    private void handleSoundBtn() {
     }
 
-    private void handleSendTestNotification() {
+    private void handleSendTestNotificationBtn() {
     }
 
-    private void handleEnableAndDisableNotificationBtn() {
+    private void handleNotificationBtn() {
     }
 
     private void handleBackBtn() {
