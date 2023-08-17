@@ -1,4 +1,4 @@
-package com.improve10x.learningplatform;
+package com.improve10x.learningplatform.workshops;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -15,7 +15,7 @@
         android:theme="@style/Theme._10XLearningPlatform"
         tools:targetApi="31">
         <activity
-            android:name=".WorkShopActivity"
+            android:name=".workshops.WorkShopActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
