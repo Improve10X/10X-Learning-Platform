@@ -2,16 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/previous_btn"
-        android:icon="@drawable/outline_rotate_left_24"
+        android:icon="@drawable/previous"
         android:title="@string/previous_txt" />
 
     <item
         android:id="@+id/current_btn"
-        android:icon="@drawable/round_check_circle_outline_24"
+        android:icon="@drawable/current_2"
         android:title="@string/current_txt" />
 
     <item
         android:id="@+id/profile_btn"
-        android:icon="@drawable/outline_person_24"
+        android:icon="@drawable/profile_2"
         android:title="@string/profile_txt" />
 </menu>
