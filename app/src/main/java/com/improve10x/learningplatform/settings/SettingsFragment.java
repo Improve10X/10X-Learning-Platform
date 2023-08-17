@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import com.improve10x.learningplatform.R;
 
 public class SettingsFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -27,18 +28,14 @@ public class SettingsFragment extends Fragment {
     }
 
     private void handleEnableAndDisableSound() {
-
     }
 
     private void handleSendTestNotification() {
-
     }
 
     private void handleEnableAndDisableNotificationBtn() {
-
     }
 
     private void handleBackBtn() {
-
     }
 }
