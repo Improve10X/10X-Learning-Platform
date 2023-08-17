@@ -6,34 +6,25 @@ import junit.framework.TestCase;
 
 public class SendMessageControllerImplTest extends TestCase {
 
+    private SendMessageControllerImpl sendMessageController = new SendMessageControllerImpl();
+
     public void testSendMessage() {
-        String expected = "";
-        String actual = new SendMessageControllerImpl().sendMessage(null);
-        assertEquals(expected, actual);
+        assertEquals("", sendMessageController.sendMessage(null));
     }
 
     public void testSendMessageEmpty_returnEmpty() {
-        String expected = "";
-        String actual = new SendMessageControllerImpl().sendMessage("");
-        assertEquals(expected, actual);
+        assertEquals("", sendMessageController.sendMessage(""));
     }
 
     public void testSendMessageC_returnC() {
-        String expected = "C";
-        String actual = new SendMessageControllerImpl().sendMessage("C");
-        assertEquals(expected, actual);
+        assertEquals("C", sendMessageController.sendMessage("C"));
     }
 
     public void testSendMessageCWithSpace_returnC() {
-        String expected = "C";
-        String actual = new SendMessageControllerImpl().sendMessage("  C  ");
-        assertEquals(expected, actual);
+       assertEquals("C", sendMessageController.sendMessage("  C  "));
     }
 
-
     public void testSendMessage_returnMessage() {
-        String expected = "Hi There is a problem with login";
-        String actual = new SendMessageControllerImpl().sendMessage("Hi There is a problem with login");
-        assertEquals(expected, actual);
+        assertEquals("Hi There is a problem with login", sendMessageController.sendMessage("Hi There is a problem with login"));
     }
 }

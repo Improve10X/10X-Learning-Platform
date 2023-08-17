@@ -24,6 +24,5 @@ public class ContactUsActivity extends AppCompatActivity implements SendMessageV
 
     @Override
     public void handleSendMessageBtn() {
-
     }
 }
