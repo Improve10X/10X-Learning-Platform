@@ -1,7 +1,17 @@
 <resources>
-    <string name="app_name">10X Learning Platform</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="notification">Notification</string>
     <string name="send_test_notification">Send Test Notification</string>
     <string name="sound">Sound</string>
+    <string name="app_name">10X Learning Platform</string>-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal_information_txt">Personal Information</string>
+    <string name="settings_txt">Settings</string>
+    <string name="contact_us_txt">Contact Us</string>
+    <string name="logout_txt">Log out</string>
+    <string name="terms_of_service_txt">Terms Of Service</string>
+    <string name="privacy_policy_txt">Privacy Policy</string>
+    <string name="returns_refunds_txt">Returns &amp; Refunds</string>
+    <string name="shipping_policy">Shipping Policy</string>
+    <string name="user_id_txt">User Id</string>
+    <string name="version_txt">Version</string>
 </resources>

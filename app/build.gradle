@@ -1,5 +1,7 @@
+
 plugins {
     alias(libs.plugins.androidApplication)
+    id 'org.jetbrains.kotlin.android' version '1.8.10'
 }
 
 android {
@@ -26,6 +28,14 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.4.3"
+    }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+        dataBinding true
+    }
 }
 
 dependencies {
@@ -33,6 +43,7 @@ dependencies {
     implementation libs.appcompat
     implementation libs.material
     implementation libs.constraintlayout
+    implementation libs.picasso
     testImplementation libs.junit
     androidTestImplementation libs.androidx.test.ext.junit
     androidTestImplementation libs.espresso.core
