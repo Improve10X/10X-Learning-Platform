@@ -20,20 +20,16 @@ public class SettingsFragment extends Fragment {
         ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
         actionBar.setTitle("Settings");
         actionBar.setDisplayHomeAsUpEnabled(true);
-        handleBackBtn();
-        handleNotificationBtn();
-        handleSendTestNotificationBtn();
-        handleSoundBtn();
         return inflater.inflate(R.layout.fragment_settings, container, false);
     }
 
-    private void handleSoundBtn() {
+    private void handleSoundSwitch() {
     }
 
-    private void handleSendTestNotificationBtn() {
+    private void handleSendTestNotificationSwitch() {
     }
 
-    private void handleNotificationBtn() {
+    private void handleNotificationSwitch() {
     }
 
     private void handleBackBtn() {
