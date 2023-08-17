@@ -11,4 +11,7 @@
     <string name="shipping_policy">Shipping Policy</string>
     <string name="user_id_txt">User Id</string>
     <string name="version_txt">Version</string>
+    <string name="notification" />
+    <string name="send_test_notification" />
+    <string name="sound" />
 </resources>
