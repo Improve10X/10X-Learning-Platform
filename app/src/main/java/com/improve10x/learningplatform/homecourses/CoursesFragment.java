@@ -17,4 +17,19 @@ public class CoursesFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_courses, container, false);
     }
+
+    private void showData(){
+    }
+
+    private void onItemClickListener(){
+    }
+
+    private void onNotesClick(){
+    }
+
+    private void onResourceClick(){
+    }
+
+    private void onClickFAQ(){
+    }
 }
