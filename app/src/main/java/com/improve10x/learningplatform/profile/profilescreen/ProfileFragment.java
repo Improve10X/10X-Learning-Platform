@@ -1,4 +1,4 @@
-package com.improve10x.learningplatform;
+package com.improve10x.learningplatform.profile.profilescreen;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.improve10x.learningplatform.contactus.ContactUsActivity;
 import com.improve10x.learningplatform.databinding.FragmentProfileBinding;
+import com.improve10x.learningplatform.profile.PersonalInformationFragment;
 
 public class ProfileFragment extends Fragment {
 
