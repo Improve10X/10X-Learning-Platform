@@ -6,25 +6,25 @@ import junit.framework.TestCase;
 
 public class SendMessageControllerImplTest extends TestCase {
 
-    private SendMessageControllerImpl sendMessageController = new SendMessageControllerImpl();
+    private  ContactUsActivity contactUsActivity = new ContactUsActivity();
 
     public void testSendMessage() {
-        assertEquals("", sendMessageController.sendMessage(null));
+        assertEquals("", contactUsActivity.sendMessage(null));
     }
 
     public void testSendMessageEmpty_returnEmpty() {
-        assertEquals("", sendMessageController.sendMessage(""));
+        assertEquals("", contactUsActivity.sendMessage(""));
     }
 
     public void testSendMessageC_returnC() {
-        assertEquals("C", sendMessageController.sendMessage("C"));
+        assertEquals("C", contactUsActivity.sendMessage("C"));
     }
 
     public void testSendMessageCWithSpace_returnC() {
-       assertEquals("C", sendMessageController.sendMessage("  C  "));
+       assertEquals("C", contactUsActivity.sendMessage("  C  "));
     }
 
     public void testSendMessage_returnMessage() {
-        assertEquals("Hi There is a problem with login", sendMessageController.sendMessage("Hi There is a problem with login"));
+        assertEquals("Hi There is a problem with login", contactUsActivity.sendMessage("Hi There is a problem with login"));
     }
 }
