@@ -41,6 +41,5 @@ public class PersonalInformationFragment extends Fragment {
     }
 
     private void handleSpinner() {
-        
     }
 }
