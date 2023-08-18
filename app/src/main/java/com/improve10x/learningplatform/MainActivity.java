@@ -13,15 +13,4 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    private void handleSaveClick() {
-    }
-
-    private void getImage() {
-    }
-    private void getNameText() {
-    }
-    private void getAddressText(String country, String zipCode, Spinner state) {
-    }
-    private void handleBackClick() {
-    }
 }
