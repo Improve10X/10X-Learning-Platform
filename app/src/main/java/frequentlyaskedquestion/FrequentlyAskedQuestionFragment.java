@@ -17,4 +17,10 @@ public class FrequentlyAskedQuestionFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_frequently_asked_question, container, false);
     }
+
+    private void changeDay() {
+    }
+
+    private void clickSearchBar() {
+    }
 }
