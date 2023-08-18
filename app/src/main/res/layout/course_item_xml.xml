@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
@@ -70,12 +71,10 @@
             android:layout_height="wrap_content"
             android:background="@color/lightGreen"
             android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.5">
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -158,13 +157,15 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <LinearLayout
-            android:layout_width="409dp"
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@color/lightBlue"
             android:gravity="center"
             android:orientation="horizontal"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
@@ -191,13 +192,14 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="409dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@color/lightOrange"
             android:orientation="horizontal"
             android:visibility="gone"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="193dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
             <LinearLayout
                 android:layout_width="match_parent"
