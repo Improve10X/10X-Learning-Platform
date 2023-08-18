@@ -17,4 +17,28 @@ public class PersonalInformationFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_personal_information, container, false);
     }
+
+    private void handleSaveChanges() {
+    }
+
+    private void getImage() {
+    }
+
+    private void getNameText() {
+    }
+
+    private void handleBackClick() {
+    }
+
+    private void getCountry() {
+    }
+
+    private void getZipCode() {
+    }
+
+    private void getState() {
+    }
+
+    private void handleStateSpinner() {
+    }
 }
