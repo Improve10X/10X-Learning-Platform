@@ -32,7 +32,7 @@ public class CoursesAdapter extends RecyclerView.Adapter<CourseViewHolder> {
     public void onBindViewHolder(@NonNull CourseViewHolder holder, int position) {
         Course course = courses.get(position);
         holder.binding.setCourse(course);
-        Picasso.get().load(course.getImageUrl()).into(holder.binding.imageIv);
+        Picasso.get().load(course.getImageUrl()).into(holder.binding.profleIv);
     }
 
     @Override
