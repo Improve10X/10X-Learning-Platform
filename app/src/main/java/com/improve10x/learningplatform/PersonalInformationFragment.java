@@ -39,4 +39,7 @@ public class PersonalInformationFragment extends Fragment {
 
     private void handleStateSpinner() {
     }
+
+    private void handleCountrySpinner() {
+    }
 }
