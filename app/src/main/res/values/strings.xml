@@ -2,4 +2,10 @@
     <string name="app_name">10X Learning Platform</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="day_8_txt">Day 8</string>
+    <string name="shedding_away_doubts_txt">SHEDDING AWAY DOUBTS</string>
+    <string name="biggest_learning_txt">Biggest learning :</string>
+    <string name="notes_txt">Notes</string>
+    <string name="resources_txt">Resources</string>
+    <string name="faq_txt">FAQ</string>
 </resources>
