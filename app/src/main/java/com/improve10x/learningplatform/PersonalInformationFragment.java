@@ -25,9 +25,6 @@ public class PersonalInformationFragment extends Fragment {
     private void getNameText() {
     }
 
-    private void getAddressText(String country, String zipCode, String state) {
-    }
-
     private void handleBackClick() {
     }
 
@@ -40,6 +37,6 @@ public class PersonalInformationFragment extends Fragment {
     private void getState() {
     }
 
-    private void handleSpinner() {
+    private void handleStateSpinner() {
     }
 }
