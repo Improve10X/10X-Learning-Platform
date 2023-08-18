@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Day 8"
+        android:text="@string/day_8_txt"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="SHEDDING AWAY DOUBTS"
+        android:text="@string/shedding_away_doubts_txt"
         android:textColor="#A19090"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -48,7 +48,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Biggest learing :"
+        android:text="@string/biggest_learning_txt"
         android:textColor="#3E3939"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -93,7 +93,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Notes"
+                android:text="@string/notes_txt"
                 android:textColor="#FBFBFB" />
         </LinearLayout>
 
@@ -115,7 +115,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Resources"
+                android:text="@string/resources_txt"
                 android:textColor="#FBF8F8" />
         </LinearLayout>
 
@@ -137,7 +137,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="FAQ"
+                android:text="@string/faq_txt"
                 android:textColor="#F6F3F3" />
         </LinearLayout>
 
