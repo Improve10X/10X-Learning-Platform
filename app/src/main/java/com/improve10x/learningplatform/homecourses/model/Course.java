@@ -7,6 +7,7 @@ public class Course {
     private String subTitle;
     private String description;
     private String message;
+    private String imageUrl;
 
     public String getDayNumber() {
         return dayNumber;
@@ -46,5 +47,13 @@ public class Course {
 
     public void setMessage(String message) {
         this.message = message;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
