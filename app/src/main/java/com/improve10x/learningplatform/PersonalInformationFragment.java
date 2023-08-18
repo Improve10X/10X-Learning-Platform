@@ -16,7 +16,7 @@ public class PersonalInformationFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_personal_information, container, false);
     }
 
-    private void handleSaveClick() {
+    private void handleSaveChanges() {
     }
 
     private void getImage() {
