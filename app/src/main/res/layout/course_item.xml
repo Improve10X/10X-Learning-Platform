@@ -232,7 +232,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="2dp"
                         android:text="Releasing on :"
-                        android:textColor="#382727" />
+                        android:textColor="@color/brown" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -240,7 +240,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="2dp"
                         android:text="@{course.releasingDate}"
-                        android:textColor="#382727"
+                        android:textColor="@color/brown"
                         tools:text="16th Aug at 8 am" />
                 </LinearLayout>
             </LinearLayout>
