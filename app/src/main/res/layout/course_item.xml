@@ -199,7 +199,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="4dp"
                         android:text="Join Room Now"
-                        android:textColor="#F6F3F3" />
+                        android:textColor="@color/white" />
                 </LinearLayout>
             </LinearLayout>
 
