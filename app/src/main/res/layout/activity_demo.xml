@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".demo.DemoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login Screen" />
+
+            <Button
+                android:id="@+id/registration_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration" />
+
+            <Button
+                android:id="@+id/verification_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verification Code" />
+
+            <Button
+                android:id="@+id/currentworkshop_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Workshops" />
+
+            <Button
+                android:id="@+id/pastworkshop_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Past Workshops" />
+
+            <Button
+                android:id="@+id/profile_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile" />
+
+            <Button
+                android:id="@+id/personal_information_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Information" />
+
+            <Button
+                android:id="@+id/settings_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings" />
+
+            <Button
+                android:id="@+id/contactus_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us" />
+
+            <Button
+                android:id="@+id/home_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/satvicmovement_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Satvic Movement" />
+
+            <Button
+                android:id="@+id/satvic_video_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Satvic Movement(Video)" />
+
+            <Button
+                android:id="@+id/faq_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ" />
+
+            <Button
+                android:id="@+id/course_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course" />
+
+            <Button
+                android:id="@+id/notes_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notes" />
+
+            <Button
+                android:id="@+id/resources_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resources" />
+
+            <Button
+                android:id="@+id/resources_video_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resources(videos)" />
+
+            <Button
+                android:id="@+id/community_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Community" />
+
+            <Button
+                android:id="@+id/today_session_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today Session" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
